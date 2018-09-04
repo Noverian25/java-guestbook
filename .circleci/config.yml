@@ -37,7 +37,7 @@ jobs:
         - run:
             name: Deploy Master to Heroku
             command: |
-              git push https://heroku:f48e6e2d-465c-4d0e-84a2-973b2429e489@hellonoverian.herokuapp.com/ master
+              git push https://heroku:f48e6e2d-465c-4d0e-84a2-973b2429e489@hellonoverian.herokuapp.com master
 workflows:
   version: 2
   build-deploy:
